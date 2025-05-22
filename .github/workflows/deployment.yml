@@ -21,4 +21,4 @@ jobs:
             docker build -t belajar-cicd-docker-2 .
             docker stop belajar-cicd-docker-container-2 || true
             docker rm belajar-cicd-docker-container-2 || true
-            docker run -d --name belajar-cicd-docker-container-2 --netwok=host belajar-cicd-docker-2
+            docker run -d --name belajar-cicd-docker-container-2 --network=host belajar-cicd-docker-2
